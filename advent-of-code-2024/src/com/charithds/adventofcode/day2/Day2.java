@@ -1,7 +1,7 @@
 package com.charithds.adventofcode.day2;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+import com.charithds.adventofcode.TaskInt;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Day2 {
+public class Day2 implements TaskInt {
     private static final String DAY2_FILE = "resources/day2.dat";
 
     public List<List<Integer>> getInput() {
@@ -37,6 +37,7 @@ public class Day2 {
         return true;
     }
 
+    @Override
     public void execute() {
         List<List<Integer>> input = getInput();
         if (input == null) {

@@ -1,5 +1,7 @@
 package com.charithds.adventofcode.day3;
 
+import com.charithds.adventofcode.TaskInt;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -8,7 +10,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class Day3 {
+public class Day3 implements TaskInt {
     private static final String DAY3_FILE = "resources/day3.dat";
 
     public String getInput() {
@@ -33,6 +35,7 @@ public class Day3 {
         return true;
     }
 
+    @Override
     public void execute() {
 //        Pattern pattern = Pattern.compile("mul\\((\\d{1,3}),(\\d{1,3})\\)");
         Pattern pattern = Pattern.compile("mul\\((\\d{1,3}),(\\d{1,3})\\)");
