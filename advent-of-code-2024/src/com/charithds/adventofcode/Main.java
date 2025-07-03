@@ -2,6 +2,8 @@ package com.charithds.adventofcode;
 
 import com.charithds.adventofcode.day6.Day6;
 import com.charithds.adventofcode.day6.Day6Part2;
+import com.charithds.adventofcode.day7.Day7;
+import com.charithds.adventofcode.day7.Day7Part2;
 
 class Main {
     public static void main(String[] args) {
@@ -24,7 +26,16 @@ class Main {
 //        Day6 day6 = new Day6("");
 //        day6.execute();;
 
-        Day6Part2 day6Part2 = new Day6Part2("");
-        day6Part2.execute();
+//        Day6Part2 day6Part2 = new Day6Part2("");
+//        day6Part2.execute();
+
+//        Day7 day7 = new Day7("");
+//        day7.execute();
+
+        Day7Part2 day7Part2 = new Day7Part2("");
+        day7Part2.execute();
+
+
+
     }
 }
